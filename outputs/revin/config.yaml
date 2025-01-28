@@ -1,0 +1,29 @@
+data:
+  path: datasets/
+  rebuild: false
+  origin: csv
+  indiv_split: 0.7
+  date_split: 0.7
+  indiv: null
+model:
+  name: MLP
+  modelpath: outputs/benchmark/patch_tst_revin/model.pt
+  hidden: 100
+  lag: 336
+  horizon: 24
+  revin: 0
+  lookback_idx: 168
+training:
+  loss: mse
+  bs: 200
+  steps: 20000
+  lr: 1.0e-06
+  schedule: false
+  print: true
+  valid_steps: 100
+  test_steps: 200
+  n_prints: 10
+  n_evals: 100
+misc:
+  seed: null
+  outputdir: outputs/revin/

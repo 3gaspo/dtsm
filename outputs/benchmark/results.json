@@ -1,0 +1,30 @@
+{
+    "persistence": {
+        "Test MSE": 13266578.0,
+        "Test NMSE": 1.9268945455551147
+    },
+    "repeat": {
+        "Test MSE": 124885.1171875,
+        "Test NMSE": 0.3395320773124695
+    },
+    "lookback": {
+        "Test MSE": 112644.8125,
+        "Test NMSE": 0.4456363916397095
+    },
+    "linear": {
+        "Test MSE": 17162726.0,
+        "Test NMSE": 0.4046380817890167
+    },
+    "MLP": {
+        "Test MSE": 339162.1875,
+        "Test NMSE": 0.3573172986507416
+    },
+    "patch_tst": {
+        "Test MSE": 81451.0234375,
+        "Test NMSE": 0.1855546534061432
+    },
+    "patch_tst_revin": {
+        "Test MSE": 44629.62890625,
+        "Test NMSE": 0.909310519695282
+    }
+}

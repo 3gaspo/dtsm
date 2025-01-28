@@ -1,0 +1,18 @@
+{
+    "MLPmse": {
+        "Test MSE": 116652.4609375,
+        "Test NMSE": 0.3683307468891144
+    },
+    "MLPhuber": {
+        "Test MSE": 18317446.0,
+        "Test NMSE": 0.31543242931365967
+    },
+    "MLPmse_revin": {
+        "Test MSE": 1145690.0,
+        "Test NMSE": 0.27601078152656555
+    },
+    "MLPhuber_revin": {
+        "Test MSE": 1249546.375,
+        "Test NMSE": 0.34927231073379517
+    }
+}
